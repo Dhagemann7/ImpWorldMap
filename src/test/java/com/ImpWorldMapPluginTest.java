@@ -1,13 +1,13 @@
-package ${package};
+package com.impworldmap;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ${plugin_prefix}PluginTest
+public class ImpWorldMapPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(${plugin_prefix}Plugin.class);
+		ExternalPluginManager.loadBuiltin(ImpWorldMapPlugin.class);
 		RuneLite.main(args);
 	}
 }
