@@ -22,7 +22,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.impworldmap;
+package net.runelite.client.plugins.impworldmap;
 
 import java.awt.Color;
 import net.runelite.client.config.Config;
@@ -30,7 +30,7 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("impworldmap")
-public interface HerbiboarConfig extends Config
+public interface ImpWorldMapConfig extends Config
 {
 	@ConfigSection(
 		name = "Imp World Map",
